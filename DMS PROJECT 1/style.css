@@ -3,7 +3,7 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 60px;
-  padding: 0 20px;
+  padding: 0 2%;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   color: #B35A24;
@@ -30,19 +30,26 @@ nav a {
 
 .image-container {
   float: right;
-  height: 75%;
+  /* height: 75%; */
 }
 .text-container {
 
-  text-align: center;
+  float: left;
+  max-width: 30%;
   
-
 }
 
 .text-container p {
-  font-size: 40px;
   font-family: 'Raleway', sans-serif;
-  font-weight: bold;
+  padding: 0% 10% ;
+  color: #B35A24;
 }
 
+.text-container h2 {
+  font-family: 'Raleway', sans-serif;
+  padding: 50% 10% 0%;
+  font-size: 60px;
+  font-weight: bold;
+  color: #B35A24;
+}
 
