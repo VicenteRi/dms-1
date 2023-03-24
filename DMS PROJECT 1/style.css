@@ -29,12 +29,8 @@ nav a {
 }
 
 .image-container {
-
-  max-width: 55%;
   float: right;
-  width: auto;
-  height:70%;
-
+  height: 75%;
 }
 .text-container {
 
@@ -48,3 +44,5 @@ nav a {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
 }
+
+
