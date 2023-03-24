@@ -29,5 +29,22 @@ nav a {
 }
 
 .image-container {
+
+  max-width: 55%;
   float: right;
+  width: auto;
+  height:70%;
+
+}
+.text-container {
+
+  text-align: center;
+  
+
+}
+
+.text-container p {
+  font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
 }
