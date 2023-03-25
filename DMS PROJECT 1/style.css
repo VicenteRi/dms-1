@@ -53,3 +53,28 @@ nav a {
   color: #B35A24;
 }
 
+.images {
+  width: 20vw; 
+  height: 40vh;
+  margin: 0vw 5vw; 
+  justify-content: center;
+}
+
+.imgInfo { 
+  display: inline;  
+}
+.image-row {
+  /* clear: both; */
+  width: 100%; 
+  justify-content: center;
+  display: flex; 
+  align-items: center;
+  background-color: #B35A24;
+}
+
+.imgInfo {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: white; 
+  padding: 2vw;
+}
