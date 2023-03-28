@@ -73,12 +73,12 @@ nav a {
   justify-content: center;
   display: flex; 
   align-items: center;
-  background-color: #B35A24;
+
 }
 
 .imgInfo {
   text-align: center;
-  color: white; 
+  color: #B35A24;
   padding: 2vw;
 }
 
@@ -90,6 +90,10 @@ nav a {
 .footer-container{
   max-width: 95%;
   margin:auto;
+}
+.footer-col
+{
+  width: 25%;
 }
 
 .footer-col ul a{
