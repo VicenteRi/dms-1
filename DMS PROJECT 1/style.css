@@ -13,6 +13,7 @@ header {
   padding: 0 2%;
   font-weight: bold;
   color: #B35A24;
+  background-color: white;
 }
 
 .navbar nav ul {
@@ -82,6 +83,46 @@ nav a {
   padding: 2vw;
 }
 
+
+.widget-container{
+  width:100%;
+  overflow: hidden;
+  margin: auto;
+  padding: 0px 0px;
+}
+
+.widget-container ul{
+  padding: 0px;
+  margin: 0px;
+}
+
+.widget-container ul li{
+  list-style: none;
+  float: left;
+  width: 35%;
+  height: 350px;
+  background-color:#B35A24;
+  margin-left: 10%;
+
+  color: white;
+}
+
+.widget-title, .widget-description {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+
+}
+.widget-title, .widget-author{
+  font-weight: bold;
+}
+
+.widget-author {
+  padding-left: 20px;
+  margin-top: 50px;
+
+}
+
 .footer{
   background-color: #B35A24;
   margin-top: 10px;
@@ -90,10 +131,12 @@ nav a {
 .footer-container{
   max-width: 95%;
   margin:auto;
+
 }
 .footer-col
 {
   width: 25%;
+
 }
 
 .footer-col ul a{
@@ -131,4 +174,16 @@ nav a {
     width: 100%;
     text-align: center;
   }
+
+  .widget-container{
+    width: 100%;
+    padding: 0px;
+    
+  }
+  .widget-container ul li {
+    float: none;
+    width: 90%;
+    margin: 40px auto;
+  }
 }
+
