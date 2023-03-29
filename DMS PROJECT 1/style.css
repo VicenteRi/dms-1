@@ -87,8 +87,8 @@ nav a {
 .widget-container{
   width:100%;
   overflow: hidden;
-  margin: auto;
-  padding: 0px 0px;
+  margin: auto 0vw;
+  padding: 0px;
 }
 
 .widget-container ul{
@@ -101,9 +101,9 @@ nav a {
   float: left;
   width: 35%;
   height: 350px;
-  background-color:#B35A24;
-  margin-left: 10%;
-
+  background-color:#b35b24ea;
+  margin: 0% 0% 5% 10%;
+  padding: 0.5%;
   color: white;
 }
 
