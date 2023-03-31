@@ -123,6 +123,37 @@ nav a {
 
 }
 
+.blog-container{
+  text-align: center;
+  color: #B35A24;
+}
+
+.blog-title h1 {
+  margin-bottom: 50px;
+}
+.blog-container ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.blog-container li {
+  width: 500px;
+}
+
+.blog-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.blog-description {
+  text-align: center;
+}
+
+
 .footer{
   background-color: #B35A24;
   margin-top: 10px;
