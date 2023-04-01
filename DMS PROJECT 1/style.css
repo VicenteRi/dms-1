@@ -59,8 +59,8 @@ nav a {
 }
 
 .images {
-  width: 20vw; 
-  height: 40vh;
+  width: auto; 
+  height: 30vh;
   margin: 0vw 5vw; 
   justify-content: center;
 }
@@ -148,6 +148,35 @@ nav a {
   max-width: 100%;
   height: auto;
 }
+
+.credit-container{
+  text-align: center;
+  color: #B35A24;
+}
+
+.credit-title h1{
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.credit-container ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.credit-container li {
+  width: 250px;
+}
+
+.credit-container img {
+  max-width: 100%;
+  height: auto;
+}
+
 
 .blog-description {
   text-align: center;
