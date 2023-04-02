@@ -123,6 +123,48 @@ nav a {
 
 }
 
+
+
+.info-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-bottom: 25px;
+}
+
+.info-description {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:#B35A24;
+}
+
+.info-container img {
+  width: 550px;
+  height: auto;
+}
+
+.info-container-right img {
+  width: 550px;
+  height: auto;
+  float: right;
+}
+
+.info-container-right {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-bottom: 25px;
+}
+
+
+
 .blog-container{
   text-align: center;
   color: #B35A24;
