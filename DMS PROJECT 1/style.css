@@ -268,3 +268,14 @@ nav a {
   }
 }
 
+.room-container {
+  display: inline-block;
+  width: 33.1%;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.rooms {
+  align-items: center;
+
+}
