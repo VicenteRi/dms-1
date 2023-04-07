@@ -234,7 +234,8 @@ nav a {
 .footer-container{
   max-width: 95%;
   margin:auto;
-  
+  position: sticky;
+  bottom: 0;
 
 }
 .footer-col
@@ -358,4 +359,71 @@ nav a {
 .rooms {
   align-items: center;
 
+}
+
+
+.contact-container {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-form {
+  max-width: 600px;
+  width: 90%;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form h1 {
+  margin: 0 0 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+
+}
+
+.contact-form input[type=text],
+.contact-form input[type=email],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.contact-form input[type=submit] {
+  background-color: #B35A24;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.contact-form input[type=submit]:hover {
+  background-color: #8c4018;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-form {
+    padding: 20px;
+  }
+  .contact-form input[type=text],
+  .contact-form input[type=email],
+  .contact-form textarea {
+    font-size: 14px;
+  }
 }
