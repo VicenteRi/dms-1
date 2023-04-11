@@ -322,20 +322,7 @@ nav a {
   justify-content: center;
 }
 
-@media(max-width: 767px){
-  .footer-col{
-    width: 100%;
-    text-align: center;
-  } 
 
-  @media(max-width: 576px) {
-    .room-container {
-      display: inline-block;
-      width: 50%;
-      box-sizing: border-box;
-      align-items: center;
-    }
-  }
 
   .widget-container{
     width: 100%;
@@ -347,7 +334,6 @@ nav a {
     width: 90%;
     margin: 40px auto;
   }
-}
 
 .room-container {
   display: inline-block;
@@ -427,3 +413,20 @@ nav a {
     font-size: 14px;
   }
 }
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 100%;
+    text-align: center;
+  } 
+}
+
+@media(max-width: 576px) {
+    .room-container {
+      display: inline-block;
+      width: 50%;
+      box-sizing: border-box;
+      align-items: center;
+    }
+}
+
