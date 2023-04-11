@@ -404,6 +404,16 @@ nav a {
   background-color: #8c4018;
 }
 
+#dropdown {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
 @media screen and (max-width: 768px) {
   .contact-form {
     padding: 20px;
