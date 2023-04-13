@@ -35,9 +35,6 @@ nav a {
   color: #B35A24;
 }
 .image-container {
-  background-image: url(./images/hotel.jpeg);
-  width: 1125px;
-  height: 750px;
   float: right;
 }
 
@@ -278,6 +275,16 @@ nav a {
   flex-wrap: wrap;
 }
 
+.footer-social {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+
 .room-container ul {
   margin: 0 25px;
   padding: 0;
@@ -442,13 +449,11 @@ nav a {
       align-items: center;
     }
 }
-
 @media only screen and (max-width: 1606px) {
   .image-container {
-    background-image: url(./images/hotel-hero.jpeg);
+    background-image: url(./images/hotel.jpeg);
     background-size: cover;
     background-position: center;
-    width: 100%;
   }
   
   .text-container  {
