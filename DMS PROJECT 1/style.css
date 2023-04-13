@@ -65,25 +65,25 @@ nav a {
   justify-content: center;
 }
 
-.imgInfo { 
-  display: inline;  
-}
 .image-row {
   /* clear: both; */
   width: 100%; 
   justify-content: center;
   display: flex; 
   align-items: center;
-
 }
 
 .imgInfo {
+  display: inline;  
   text-align: center;
   color: #B35A24;
-  padding: 2vw;
+  /* padding: 2vw; */
+  margin-top: 2%;
 }
 
-
+.imgInfo p {
+  margin: 2%;
+}
 .widget-container{
   width:100%;
   overflow: hidden;
@@ -324,7 +324,7 @@ nav a {
 
 
 
-  .widget-container{
+  /* .widget-container{
     width: 100%;
     padding: 0px;
     
@@ -333,7 +333,7 @@ nav a {
     float: none;
     width: 90%;
     margin: 40px auto;
-  }
+  } */
 
 .room-container {
   display: inline-block;
@@ -441,3 +441,17 @@ nav a {
     }
 }
 
+@media only screen and (max-width: 1606px) {
+  .image-container {
+    background-image: url(./images/hotel.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .text-container  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
