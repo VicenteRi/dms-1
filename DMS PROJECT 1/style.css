@@ -36,6 +36,9 @@ nav a {
 }
 .image-container {
   float: right;
+  background-image: url(./images/hotel.jpeg);
+  width: 1125px;
+  height: 750px;
 }
 
 .text-container {
@@ -451,7 +454,7 @@ nav a {
 }
 @media only screen and (max-width: 1606px) {
   .image-container {
-    background-image: url(./images/hotel.jpeg);
+    background-image: url(./images/hotel-hero.jpeg);
     background-size: cover;
     background-position: center;
   }
