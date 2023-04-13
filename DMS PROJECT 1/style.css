@@ -36,8 +36,10 @@ nav a {
 }
 
 .image-container {
+  background-image: url(images/hotel.jpeg);
+  width: 1125px;
+  height: 750px;
   float: right;
-  /* height: 75%; */
 }
 .text-container {
 
@@ -276,6 +278,16 @@ nav a {
   flex-wrap: wrap;
 }
 
+.footer-social {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+
 .room-container ul {
   margin: 0 25px;
   padding: 0;
@@ -440,12 +452,13 @@ nav a {
       align-items: center;
     }
 }
-
 @media only screen and (max-width: 1606px) {
   .image-container {
-    background-image: url(./images/hotel.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(./images/hotel-hero.jpeg);
     background-size: cover;
     background-position: center;
+    width: 100%;
+    opacity: 0.3;
   }
   
   .text-container  {
@@ -454,4 +467,5 @@ nav a {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
 }
