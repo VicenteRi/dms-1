@@ -69,7 +69,7 @@ nav a {
 
 .image-row {
   /* clear: both; */
-  width: 100vw; 
+  width: 100%; 
   justify-content: center;
   display: flex; 
   align-items: center;
@@ -452,6 +452,54 @@ nav a {
   .imgInfo{
     width: 100%;
   }
+  .widget-container ul li {
+    width: 100%; 
+    height: auto; 
+    margin: 2% 0;
+  }
+  .widget-container ul li p {
+    margin: 2%;
+    box-sizing: border-box;
+  }
+  .blog-container ul {
+    width: 100%; 
+    height: auto; 
+    gap: none;
+    display: block;
+    float: none;
+    justify-content: center;
+    padding: 0;
+    gap: 0;
+  }
+  .image-row{
+    display: block;
+    box-sizing: border-box;
+  }
+  .image-row div {
+    width: 100%;
+    display: block;
+  }
+  
+  .info-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .info-container-right img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .info-description {
+    display: block;
+    width: 100%;
+  }
+  .info-container-right {
+    display: block;
+  }
+  .info-container {
+    display: block;
+  }
 }
 
 @media(max-width: 576px) {
@@ -474,6 +522,55 @@ nav a {
     }
     .text-container p {
       font-size: 15px;
+    }
+    /* index */
+    .widget-container ul li {
+      width: 100%; 
+      height: auto; 
+      margin: 2% 0;
+    }
+    .widget-container ul li p {
+      margin: 2%;
+      box-sizing: border-box;
+    }
+    .blog-container ul {
+      width: 100%; 
+      height: auto; 
+      gap: none;
+      display: block;
+      float: none;
+      justify-content: center;
+      padding: 0;
+      gap: 0;
+    }
+    .image-row{
+      display: block;
+      box-sizing: border-box;
+    }
+    .image-row div {
+      width: 100%;
+      display: block;
+    }
+    
+    .info-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .info-container-right img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .info-description {
+      display: block;
+      width: 100%;
+    }
+    .info-container-right {
+      display: block;
+    }
+    .info-container {
+      display: block;
     }
 }
 @media only screen and (max-width: 1606px) {
